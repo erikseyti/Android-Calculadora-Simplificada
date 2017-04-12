@@ -25,6 +25,10 @@
         <activity
             android:name=".CalculadoraCompleta"
             android:label="@string/title_activity_calculadora_completa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CalculadoraExterna"
+            android:label="@string/title_activity_calculadora_externa"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -63,6 +63,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(it);
     }
 
-
+    public void chamarCalculadoraExterna1(View view)
+    {
+        Intent it = new Intent(this,CalculadoraExterna.class);
+        startActivity(it);
+    }
 
 }
