@@ -39,6 +39,7 @@ public class CalculadoraCompleta extends AppCompatActivity {
         RadioButton rbSubtracao = (RadioButton) findViewById(R.id.rbSubtracao);
         RadioButton rbMultiplicao = (RadioButton) findViewById(R.id.rbMultiplicacao);
         RadioButton rbDivisao = (RadioButton) findViewById(R.id.rbDivisao);
+        RadioButton rbExpoente = (RadioButton) findViewById(R.id.rbExponencial);
 
 
         Double resultado = 0.;
@@ -60,6 +61,15 @@ public class CalculadoraCompleta extends AppCompatActivity {
         else if(rbDivisao.isChecked())
         {
             resultado = valorc1/valorc2;
+        }
+        else if(rbExpoente.isChecked())
+        {
+            resultado = 1.;
+            while(valorc2 > 0)
+            {
+                resultado = resultado * valorc1;
+                valorc2 = valorc2 -1;
+            }
         }
 
         Toast.makeText(getApplicationContext(), String.valueOf("o valor do resultado é: " + resultado), Toast.LENGTH_SHORT).show();
