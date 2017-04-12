@@ -57,6 +57,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(it);
     }
 
+    public void chamarCalculadoraCompleta(View view)
+    {
+        Intent it = new Intent(this,CalculadoraCompleta.class);
+        startActivity(it);
+    }
+
 
 
 }

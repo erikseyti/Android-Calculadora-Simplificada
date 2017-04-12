@@ -2,8 +2,16 @@
     <string name="app_name">CalculadoraSimples</string>
     <string name="action_settings">Settings</string>
     <string name="btnCalculadoraSimples">Calculadora Simples</string>
+    <string name="btnCalculadoraCompleta">Calculadora Completa</string>
     <string name="title_activity_calculadora_simples">CalculadoraSimples</string>
     <string name="lb_valor1">Valor 1</string>
     <string name="lb_valor2">Valor 2</string>
     <string name="btn_calcular">Calcular</string>
+    <string name="title_activity_calculadora_completa">CalculadoraCompleta</string>
+    <string name="rb_soma">Soma</string>
+    <string name="rb_subtracao">Subtração</string>
+    <string name="rb_multiplicação">Multiplicação</string>
+    <string name="rb_divisao">Divisão</string>
+    <string name="rb_exponencial">exponencial</string>
+
 </resources>
