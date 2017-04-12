@@ -6,6 +6,9 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.Toast;
 
 public class CalculadoraCompleta extends AppCompatActivity {
 
@@ -25,5 +28,42 @@ public class CalculadoraCompleta extends AppCompatActivity {
             }
         });
     }
+
+    public void CalculadoraComplexa(View view)
+    {
+        EditText vc1 = (EditText) findViewById(R.id.edtValorUno);
+        EditText vc2 = (EditText) findViewById(R.id.edtValorDuo);
+        Double valorc1 = Double.parseDouble(vc1.getText().toString());
+        Double valorc2 = Double.parseDouble(vc2.getText().toString());
+        RadioButton rbSoma = (RadioButton) findViewById(R.id.rbSoma);
+        RadioButton rbSubtracao = (RadioButton) findViewById(R.id.rbSubtracao);
+        RadioButton rbMultiplicao = (RadioButton) findViewById(R.id.rbMultiplicacao);
+        RadioButton rbDivisao = (RadioButton) findViewById(R.id.rbDivisao);
+
+
+        Double resultado = 0.;
+        if(rbSoma.isChecked())
+        {
+            resultado = valorc1+ valorc2;
+        }
+
+        else if(rbSubtracao.isChecked())
+        {
+            resultado = valorc1 - valorc2;
+        }
+
+        else if(rbMultiplicao.isChecked())
+        {
+            resultado = valorc1 * valorc2;
+        }
+
+        else if(rbDivisao.isChecked())
+        {
+            resultado = valorc1/valorc2;
+        }
+
+        Toast.makeText(getApplicationContext(), String.valueOf("o valor do resultado é: " + resultado), Toast.LENGTH_SHORT).show();
+    }
+
 
 }

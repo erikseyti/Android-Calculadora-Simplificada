@@ -20,7 +20,8 @@
         android:layout_marginTop="175dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="CalculadoraComplexa"/>
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -35,35 +36,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/rb_soma"
-            android:id="@+id/radioButton"
-            android:checked="false" />
+            android:id="@+id/rbSoma"
+            android:checked="true" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/rb_subtracao"
-            android:id="@+id/radioButton2"
+            android:id="@+id/rbSubtracao"
             android:checked="false" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/rb_multiplicação"
-            android:id="@+id/radioButton3"
+            android:id="@+id/rbMultiplicacao"
             android:checked="false" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/rb_divisao"
-            android:id="@+id/radioButton4"
+            android:id="@+id/rbDivisao"
             android:checked="false" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/rb_exponencial"
-            android:id="@+id/radioButton5"
+            android:id="@+id/rbExponencial"
             android:checked="false" />
     </RadioGroup>
 
@@ -82,7 +83,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/edtValorUno"
         android:layout_below="@+id/textView"
         android:layout_alignRight="@+id/button4"
         android:layout_alignEnd="@+id/button4"
@@ -95,7 +96,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/lb_valor2"
         android:id="@+id/textView4"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/edtValorUno"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -104,7 +105,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText2"
+        android:id="@+id/edtValorDuo"
         android:layout_below="@+id/textView4"
         android:layout_alignRight="@+id/button4"
         android:layout_alignEnd="@+id/button4"
