@@ -4,7 +4,9 @@
     <string name="btnCalculadoraSimples">Calculadora Simples</string>
     <string name="btnCalculadoraCompleta">Calculadora Completa</string>
     <string name="btnCalculadoraExterna1">Calculadora Externa 1</string>
+    <string name="btnCalculadoraExterna2">Calculadora Externa 2</string>
     <string name="title_activity_calculadora_simples">CalculadoraSimples</string>
+    <string name="btn_voltar_calculadoraExterna2">Voltar para a Tela Anterior</string>
     <string name="lb_valor1">Valor 1</string>
     <string name="lb_valor2">Valor 2</string>
     <string name="lb_resposta">Resposta:</string>
@@ -16,5 +18,8 @@
     <string name="rb_divisao">Divisão</string>
     <string name="rb_exponencial">exponencial</string>
     <string name="title_activity_calculadora_externa">CalculadoraExterna</string>
+    <string name="title_activity_calculadora_externa2">CalculadoraExterna2</string>
+    <string name="title_activity_calculadora_externa2_resultado">CalculadoraExterna2Resultado
+    </string>
 
 </resources>
