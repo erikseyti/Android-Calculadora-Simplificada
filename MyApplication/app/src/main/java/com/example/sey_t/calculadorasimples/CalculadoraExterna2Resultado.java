@@ -41,4 +41,11 @@ public class CalculadoraExterna2Resultado extends AppCompatActivity {
         });
     }
 
+    public void VoltarCalculadoraExterna2(View view)
+    {
+        Intent it = new Intent(this,CalculadoraExterna2.class);
+        startActivity(it);
+    }
+
+
 }

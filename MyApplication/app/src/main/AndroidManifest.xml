@@ -37,6 +37,10 @@
         <activity
             android:name=".CalculadoraExterna2Resultado"
             android:label="@string/title_activity_calculadora_externa2_resultado"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".teste"
+            android:label="@string/title_activity_teste"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

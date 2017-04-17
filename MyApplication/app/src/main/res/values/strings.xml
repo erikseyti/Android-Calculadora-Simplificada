@@ -21,5 +21,7 @@
     <string name="title_activity_calculadora_externa2">CalculadoraExterna2</string>
     <string name="title_activity_calculadora_externa2_resultado">CalculadoraExterna2Resultado
     </string>
+    <string name="title_activity_teste">teste</string>
+    <string name="btn_exemplo"></string>
 
 </resources>
